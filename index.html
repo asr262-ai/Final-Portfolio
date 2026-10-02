@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aidan Seth | Finance & Supply Chain Portfolio</title>
+<meta name="description" content="Portfolio of a Rutgers Business School student studying Finance and Supply Chain Management.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #f7f6f3;
+    --ink: #1c1f26;
+    --muted: #5a606b;
+    --line: #dcdad3;
+    --scarlet: #b3002d;
+    --card: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Inter", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+    line-height: 1.6;
+  }
+  a { color: var(--scarlet); }
+  a:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 0 24px; }
+
+  header.nav { border-bottom: 1px solid var(--line); }
+  header.nav .wrap { display: flex; justify-content: space-between; align-items: center; padding-top: 18px; padding-bottom: 18px; }
+  .brand { font-family: "Fraunces", Georgia, serif; font-weight: 600; font-size: 1.15rem; color: var(--ink); text-decoration: none; }
+  nav a { margin-left: 22px; color: var(--muted); text-decoration: none; font-weight: 500; font-size: .95rem; }
+  nav a:hover { color: var(--scarlet); }
+
+  .hero { padding: 88px 0 72px; }
+  .hero h1 {
+    font-family: "Fraunces", Georgia, serif;
+    font-weight: 500;
+    font-size: clamp(1.7rem, 4.2vw, 2.7rem);
+    line-height: 1.25;
+    margin: 0 0 28px;
+    max-width: 22em;
+  }
+  .hero .name { color: var(--muted); font-weight: 500; margin: 0 0 14px; }
+  .hero a.btn {
+    display: inline-block; background: var(--scarlet); color: #fff; text-decoration: none;
+    padding: 12px 22px; border-radius: 6px; font-weight: 600;
+  }
+  .hero a.btn:hover { background: #8f0024; }
+
+  section { padding: 56px 0; border-top: 1px solid var(--line); }
+  h2 { font-family: "Fraunces", Georgia, serif; font-weight: 600; font-size: 1.7rem; margin: 0 0 28px; }
+
+  .skills { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 28px; }
+  .skills h3 { font-size: 1rem; margin: 0 0 12px; color: var(--scarlet); }
+  .skills ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+  .skills li { background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: 6px 14px; font-size: .95rem; }
+
+  .projects { display: grid; gap: 20px; }
+  .project { background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--scarlet); border-radius: 6px; padding: 24px 26px; }
+  .project h3 { margin: 0 0 8px; font-size: 1.15rem; }
+  .project p { margin: 0 0 14px; color: var(--muted); max-width: 62ch; }
+  .project a { font-weight: 600; }
+
+  footer { border-top: 1px solid var(--line); padding: 28px 0 40px; color: var(--muted); font-size: .92rem; }
+
+  @media (max-width: 560px) {
+    nav a { margin-left: 14px; }
+    .hero { padding: 56px 0 48px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top">Aidan Seth</a>
+    <nav aria-label="Main">
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <div class="wrap">
+    <div class="hero">
+      <p class="name">Aidan Seth</p>
+      <h1>Rutgers Business School student studying Finance and Supply Chain Management with experience in financial analysis, supply chain operations, and project coordination.</h1>
+      <a class="btn" href="#projects">View my projects</a>
+    </div>
+  </div>
+
+  <section id="skills">
+    <div class="wrap">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div>
+          <h3>Finance</h3>
+          <ul>
+            <li>Financial Analysis</li>
+            <li>Financial Modeling</li>
+            <li>Microsoft Excel</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Supply chain and operations</h3>
+          <ul>
+            <li>Supply Chain Management</li>
+            <li>Inventory Management</li>
+            <li>Data Organization</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Professional</h3>
+          <ul>
+            <li>Project Management</li>
+            <li>Leadership</li>
+            <li>Communication</li>
+            <li>Team Coordination</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="wrap">
+      <h2>Projects</h2>
+      <div class="projects">
+        <article class="project">
+          <h3>Real Estate Private Equity Analysis</h3>
+          <p>Analyzed real estate investment opportunities through financial projections, property valuation, and investment return analysis.</p>
+          <a href="#">View project</a>
+        </article>
+        <article class="project">
+          <h3>Textbook Procurement and Inventory Project</h3>
+          <p>Led the procurement of new textbooks and coordinated the disposal of 3,000+ outdated volumes, improving inventory accuracy and storage efficiency.</p>
+          <a href="#">View project</a>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer id="contact">
+  <div class="wrap">
+    Contact: <a href="mailto:asr262@scarletmail.rutgers.edu">asr262@scarletmail.rutgers.edu</a>
+  </div>
+</footer>
+
+</body>
+</html>
