@@ -1,9 +1,5 @@
 # Final-Portfolio
 My personal portfolio website showcasing my skills and projects.
-<h1>Portfolio</h1>
-
-<p>My personal portfolio website showcasing my skills and projects.</p>
-
 <p>Rutgers Business School student studying Finance and Supply Chain Management with experience in financial analysis, supply chain operations, and project coordination.</p>
 
 <h2>Skills</h2>
